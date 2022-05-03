@@ -53,6 +53,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.tab { 
+  margin-left: 40px;
+}
+
 .contents {
   padding: 1em;
   max-width: 800px;
