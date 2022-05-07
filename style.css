@@ -54,6 +54,10 @@ body {
   justify-content: center;
 }
 
+.aula{
+  padding-top: 25px;
+}
+
 .tab { 
   margin-left: 40px;
 }
