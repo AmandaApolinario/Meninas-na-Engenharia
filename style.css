@@ -68,9 +68,24 @@ body {
   display: block;
   padding-top: 10px;
 }
+
+.linkContinue{
+  text-decoration: none;
+  color:rgb(8, 87, 113);
+
+}
+
+.linkContinue:hover{
+  color:rgb(8, 87, 113);
+  color:rgb(117, 199, 226);
+  font-size: 20px;
+
+}
+
 .tab { 
   margin-left: 40px;
 }
+
 
 .contents {
   padding: 1em;
