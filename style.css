@@ -58,6 +58,16 @@ body {
   padding-top: 25px;
 }
 
+.navbar{
+  background-color: lightblue;
+}
+
+.continue{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+}
 .tab { 
   margin-left: 40px;
 }
