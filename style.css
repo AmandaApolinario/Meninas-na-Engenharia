@@ -110,6 +110,10 @@ body {
   display: inline-block;
 }
 
+.prevNext{
+  text-align: center;
+}
+
 .contents .code-block {
   white-space: pre;
   overflow: auto;
