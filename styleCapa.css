@@ -60,6 +60,11 @@ body{
 
 }
 
+a{
+    color:#222222;
+    font-size: 30px;
+}
+
 .button:hover{
     background-color: #38a58a;
 }
@@ -74,7 +79,7 @@ body{
 .title{
     font-size: 350%;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
     text-align: center;
 }
 
@@ -90,21 +95,49 @@ body{
 }
 
 .led {
-    width: 8vw;
+    width: 12vw;
 }
 
 
 .red:hover{
     background: url("led_rgbvermelho.png") no-repeat;
-    background-size: 8vw;
+    background-size: 12vw;
 }
 
 .green:hover{
     background: url("led_rgbverde.png") no-repeat;
-    background-size: 8vw;
+    background-size: 12vw;
 }
 
 .blue:hover{
     background: url("led_rgbazul.png") no-repeat;
-    background-size: 8vw;
+    background-size: 12vw;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-title{
+        font-size: 30px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+    .button{
+        padding: 15px 30px;
+    }
+    .led{
+        width: 30vw;
+    }
+    .red:hover{
+        background-size: 30vw;
+    }
+    
+    .green:hover{
+        background-size: 30vw;
+    }
+    
+    .blue:hover{
+        background-size: 30vw;
+    }
+
 }
