@@ -109,8 +109,8 @@ a{
     background-size: 12vw;
 }
 
-.blue:hover{
-    background: url("led_rgbazul.png") no-repeat;
+.yellow:hover{
+    background: url("rgb-amarelo.png") no-repeat;
     background-size: 12vw;
 }
 
@@ -136,7 +136,7 @@ a{
         background-size: 30vw;
     }
     
-    .blue:hover{
+    .yellow:hover{
         background-size: 30vw;
     }
 
