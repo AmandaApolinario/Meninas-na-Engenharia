@@ -26,6 +26,29 @@ body{
     height: 100vh;
     color: #444;
     padding: 5%;
+
+}
+
+.engrenagem{
+    height: 100px;
+    width: auto;
+}
+
+.eng1{
+    transition: transform 1.5s ease-in-out;
+    text-align: left;
+    padding-right:2vw ;
+    padding-left: 2vh;
+}
+
+.eng2{
+    transition: transform 2s ease-in-out;
+    padding-right:2vw ;
+    padding-left: 2vh;
+}
+
+.engrenagem:hover{
+    transform: rotate(360deg);
 }
 
 .sub-title {
@@ -142,4 +165,7 @@ a{
         background-size: 30vw;
     }
 
+    .engrenagem{
+        display: none;
+    }
 }
