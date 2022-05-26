@@ -116,14 +116,16 @@ a{
 
 @media screen and (max-width: 600px) {
     .sub-title{
-        font-size: 30px;
+        font-size: 25px;
+        margin-bottom: 5vh;
     }
 
     .title{
         font-size: 40px;
+        margin-bottom: 5vh;
     }
     .button{
-        padding: 15px 30px;
+        padding: 5px 20px;
     }
     .led{
         width: 30vw;
