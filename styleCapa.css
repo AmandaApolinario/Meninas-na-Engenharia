@@ -17,7 +17,7 @@ body{
 }
 
 body{
-    background: url("fundo.png") no-repeat;
+    background: url("imgs/fundo.png") no-repeat;
 }
 
 
@@ -75,9 +75,9 @@ body{
 
 .button {
     background-color: #84dcc6;
-    margin: 12px;
-    font-size: 30px;
-    padding: 30px 80px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 25px 60px;
     margin-left: 15px;
     margin-right: 15px;
 
@@ -123,17 +123,17 @@ a{
 
 
 .red:hover{
-    background: url("led_rgbvermelho.png") no-repeat;
+    background: url("imgs/led_rgbvermelho.png") no-repeat;
     background-size: 12vw;
 }
 
 .green:hover{
-    background: url("led_rgbverde.png") no-repeat;
+    background: url("imgs/led_rgbverde.png") no-repeat;
     background-size: 12vw;
 }
 
 .yellow:hover{
-    background: url("rgb-amarelo.png") no-repeat;
+    background: url("imgs/rgb-amarelo.png") no-repeat;
     background-size: 12vw;
 }
 
