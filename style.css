@@ -168,11 +168,11 @@ body {
 }
 
 .competencia{
-  font-size: 25px; 
+  font-size: 20px; 
 }
 
 .competencia span{
-  background-color: lightblue;
+  background-color: #aaeada;
   border-radius: 8px;
   padding: 10px;
 }
