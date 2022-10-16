@@ -34,6 +34,13 @@ body{
     width: auto;
 }
 
+.logos{
+    height: 120px;
+    padding-right:2vw ;
+    padding-left: 2vh;
+
+}
+
 .eng1{
     height: 100px;
     width: auto;

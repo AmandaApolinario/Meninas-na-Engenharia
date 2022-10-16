@@ -1,107 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meninas na Engenharia</title>
+	<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Meninas na Engenharia</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+		<!-- Latest compiled and minified CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		
 
-    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Meninas na engenharia</a>
-    
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          </div>
-        </div>
-      </nav>
+		<nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="./index.html">Meninas na engenharia</a>
+		
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					</div>
+				</div>
+			</nav>
 
-    <div id="todoOTexto">
-    <nav class="toc">
-        <ul>
-            <li><a href="./capitulo1-professores.html">Introdução</a>
-            <li>
-                <a href="./capitulo2-professores.html">Aulas de Python</a>
-            </li>
-            <li>
-                <a href="#capitulo3">Capítulo 3</a>
-          <ul>
-            <li><a href="#placeholder1">Placeholder 1</a></li>
-            <li><a href="#placeholder2">Placeholder 2</a></li>
-            <li><a href="#placeholder3">Placeholder 3</a></li>
-          </ul>
-            </li>
-            <li>
-              <a href="./fotos-professores.html">Fotos do projeto</a>
-          </li>
-        </ul>
-      <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-        <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
-      </svg>
-    </nav>
-    
-    <article class="contents">
-    
-        <section>
-      
-        <div id="capitulo3" class = "anchor"><h2>Capítulo 3</h2>
+			<div id="todoOTexto">
+				<nav class="toc">
+					<ul>
+						<li><a href="./capitulo1-professores.html">Introdução</a>
+						</li>
+						<li>
+								<a href="./capitulo2-professores.html">Aulas de Python</a>
+						</li>
+						<li>
+							<a href="#capitulo3">Aulas de Eletrônica</a>
+							<ul>
+									<li><a href="#apresentacao">Apresentação</a></li>
+									<li><a href="#materiaisUsados">Materiais Usados</a></li>
+									<li><a href="#diarioDeAulas">Diário de Aulas</a>
+											<ul>
+													<li><a href="#aula1">Aula 1</a></li>
+													<li><a href="#aula2">Aula 2</a></li>
+													<li><a href="#aula3">Aula 3</a></li>
+													<li><a href="#aula4">Aula 4</a></li>
+													<li><a href="#aula5">Aula 5</a></li>
+											</ul>
+									</li>
+									<li><a href="#aula6">Oficina de Eletrônica</a></li>
+							</ul>
+					</li>
+						<li>
+							<a href="./fotos-professores.html">Fotos do projeto</a>
+					</li>
+					<li>
+            <a href="./fotosAutomatizacao-professores.html">Fotos das automatizações</a>
+        </li>
+				</ul>
+					<svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+						<path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+					</svg>
+				</nav>
+				
+				<article class="contents">
+				
+						<section>
+					
+						<div id="capitulo3" class = "anchor"><h2>Aulas de Eletrônica</h2>
+		
+							<div id="apresentacao" class="anchor" ><h3>Apresentação</h3>
+								<p>Para o desenvolvimento das aulas e oficinas de eletrônica, buscamos focar em componentes básicos integrantes da maioria de placas e equipamentos eletrônicos utilizados no dia a dia, além da divisão em níveis crescentes de dificuldade dos circuitos a serem montados e programados. Para dar continuidade nos conhecimentos aprendidos nas aulas de programação, utilizamos a linguagem Micropython para programar os microcontroladores dos circuitos eletrônicos. Além das aulas, foram passados, por semana, um desafio simples para instigar as alunas a explorarem a plataforma e garantir o aprendizado.
+								</p>
+							</div>
+							
+							<div id="materiaisUsados" class="anchor"><h3>Materiais Usados</h3>
+								
+								<p> Foram utilizados LEDs, resistores, potenciômetros, buzzers, sensores de presença do tipo PIR, protoboards, fontes de alimentação e microcontroladores do tipo ESP para as oficinas práticas e presenciais e para as aulas de programação de circuitos eletrônicos realizadas de forma online, utilizamos a plataforma de simulação e programação de circuitos eletrônicos TinkerCAD e a plataforma de videoconferência Google Meet, por serem plataformas gratuitas, de fácil e livre acesso, além de serem plataformas das quais as alunas já obtinham alguma familiaridade.
+								</div>
+		
+							<div id="diarioDeAulas" class="anchor"><h3>Diario De Aulas</h3>
+								São ao todo um total de 10 aulas, de aproximadamente 1 hora e 30 minutos cada, que ocorrem duas vezes por semana em dias e horários fixos.  
+		
+								<div class = "aula"><h4 id="aula1" class="anchor">Aula 1</h4></div>
+									
+								<div class ="container-fluid">
+										<div class ="row">  
+											<div class = "anchor col-md-10 col-sm-10">
 
-          <div class ="container-fluid">
-            <div class ="row">
-              <div class = "anchor col-md-10 col-sm-10">
+												<p>A primeira aula desenvolve a introdução do uso da plataforma TinkerCAD: como criar uma conta, como montar um circuito dentro da plataforma e como programar o circuito montado dentro da plataforma. Além de introduzir a montagem e programação de um circuito eletrônico para acender um LED e, em seguida, um circuito para controlar o brilho de um LED com um potenciômetro.
+												</p>
+											
+											</div>
+											<div class ="competencia col-md-2 col-sm-2">
+												
+												<span>EF08CI02ES</span>
+												<span>EF02CI03ES</span>
+												<span>EM13CNT308</span>
+										 </div>
+										</div>
+									</div>
 
-              </div>
-              <div class ="competencia col-md-2 col-sm-2">
-                  <span>competência</span>
-                  <span>competência</span>
-               </div>
-            </div>
-          </div>
+									<div class="video-container">
+										<iframe width="1000" height="610" src="https://www.youtube.com/embed/xqqjFpWX4MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<br>
+									<embed src="otherFiles/Aula 1 - Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+							 
+									<div class = "aula"><h4 id="aula2" class="anchor">Aula 2</h4></div>
+									<div class ="container-fluid">
+										<div class ="row">  
+											<div class = "anchor col-md-10 col-sm-10">
+										<p>A segunda aula buscou dar sequência ao aprendizado do uso da plataforma TinkerCAD e a montagem e programação de novos circuitos eletrônicos, sendo nesta aula, um circuito para controlar o acionamento das 3 cores de um LED RGB com intervalos de cinco segundos e um circuito para controlar as cores de um LED RGB com um potenciômetro.
+										</p>
+										
+									</div>
+									<div class ="competencia col-md-2 col-sm-2">
+										<span>EF08CI02ES</span>
+										<span>EF02CI03ES</span>
+										<span>EM13CNT308</span>
+								 </div>
+								</div>
+							</div>
+										<div class="video-container">
+											<iframe width="1000" height="610" src="https://www.youtube.com/embed/1KN96PEOfms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+											<br>
+										
+											<embed src="otherFiles/Aula 2 - Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+		
+		
+									<div class = "aula"><h4 id="aula3" class="anchor">Aula 3</h4></div>
+									
+									<div class ="container-fluid">
+										<div class ="row">  
+											<div class = "anchor col-md-10 col-sm-10">
 
-          <div class ="container-fluid">
-            <div class ="row">
-              <div id="placeholder2"  class = "anchor  col-md-10 col-sm-10"><h3>Placeholder 2</h3>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ducimus aspernatur debitis fuga tempora exercitationem dolore, porro eligendi vero quod autem, itaque vitae veritatis nisi doloribus nam cupiditate ullam! Quasi!
-                Maiores nulla quidem architecto tempora adipisci voluptatem quis nostrum quia, perferendis dolore. Hic enim eveniet nemo iste earum ad ipsum, fugit officia fuga dolores explicabo quas a adipisci. Laborum, distinctio.
-                Accusamus, non? Architecto nesciunt delectus dolor, dolorem similique repudiandae iure, totam deserunt voluptatem laudantium a mollitia doloremque sint quae nulla esse dolorum laborum molestias inventore in at quos sed consequuntur!
-              </div>
-              <div class ="competencia col-md-2 col-sm-2">
-                <span>competência</span>
-               </div>
-            </div>
-          </div>
-          
+										<p>Ainda dando sequência ao aprendizado do uso da plataforma TinkerCAD e a montagem e programação de novos circuitos eletrônicos, na terceira aula foi desenvolvido um circuito para controlar o acionamento de um LED a partir da detecção de movimento por um sensor de presença do tipo PIR, posteriormente adicionando o acionamento de um buzzer ou piezo nas mesmas condições do LED e um circuito para controlar o movimento da hélice de um servo motor com um potenciômetro.
+										</p>
+									</div>
+									<div class ="competencia col-md-2 col-sm-2">
+										<span>EF08CI02ES</span>
+										<span>EF02CI03ES</span>
+										<span>EM13CNT308</span>
+								 </div>
+								</div>
+							</div>
+									
+										<div class="video-container">
+											<iframe width="1000" height="610" src="https://www.youtube.com/embed/daUJPsuSo08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+											<br>
+										<embed src="otherFiles/Aula 3 - Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+		
+										<div class = "aula"><h4 id="aula4" class="anchor">Aula 4</h4></div>
+									<div class ="container-fluid">
+										<div class ="row">  
+											<div class = "anchor col-md-10 col-sm-10">
+									<p>
+										Ainda dando sequência ao aprendizado do uso da plataforma TinkerCAD e a montagem e programação de novos circuitos eletrônicos, na quarta aula foi desenvolvido um circuito para controlar a ligação de uma lâmpada a partir do acionamento de um relé e um circuito para controlar o acionamento de um motor com a detecção da temperatura desejada com um sensor de temperatura do tipo LM35.
+									</p>
+								</div>
+								<div class ="competencia col-md-2 col-sm-2">
+									<span>EF08CI02ES</span>
+									<span>EF02CI03ES</span>
+									<span>EM13CNT308</span>
+							 </div>
+							</div>
+						</div>
+									<div class="video-container">
+										<iframe width="1000" height="610" src="https://www.youtube.com/embed/77Mpu_BXrfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<br>
+									<embed src="otherFiles/Aula 4 - Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+		
+									<div class = "aula"><h4 id="aula5" class="anchor">Aula 5</h4></div>
+									<div class ="container-fluid">
+										<div class ="row">  
+											<div class = "anchor col-md-10 col-sm-10">
+										<p>A quinta aula foi realizada com intuito de correção e realização dos desafios passados durante as semanas de aula, onde os circuitos eletrônicos desenvolvidos foram, um circuito capaz de acender um LED por 5 segundos, desligar e, em seguida, seu brilho ser controlado por um potenciômetro para sempre, um circuito capaz de acender um LED RGB com uma cor primária e em seguida com suas cores secundárias (exemplo: acende Verde, depois Amarelo e por último Roxo) e por fim, um circuito capaz de acender um LED e ligar um motor quando um sensor de presença do tipo PIR detectasse algum movimento.
+										</p>
+									</div>
+									<div class ="competencia col-md-2 col-sm-2">
+										<span>EF08CI02ES</span>
+										<span>EF09MA07</span>
+										<span>EM13CNT308</span>
+								 </div>
+								</div>
+							</div>
+									
+										<div class="video-container">
+											<iframe width="1000" height="610" src="https://www.youtube.com/embed/k4cYgTn4_YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<br>
+										<embed src="otherFiles/Aula 5 - Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+		
+		
+											<div class = "aula"><h4 id="aula6" class="anchor">Oficina de Eletrônica</h4></div>
+		
+											<p>A oficina prática de eletrônica teve como objetivo introduzir os componentes básicos eletrônicos que seriam utilizados ao longo do projeto, bem como o funcionamento e a aplicação de cada componente em equipamentos comuns utilizados no dia a dia das alunas. Para isso, foram apresentados os componentes: resistores, protoboards, LED’s, potenciômetros, buzzers, microcontroladores do tipo ESP8266, sensores de movimento do tipo PIR e fontes de alimentação. Após demonstrar cada componente fisicamente, seguimos a aula com a montagem de circuitos eletrônicos utilizando o método de divisão em níveis crescentes de dificuldade, portanto, o primeiro circuito montado foi para o acionamento de um LED com um resistor de pull down, o segundo para o acionamento de um buzzer, o terceiro para o controle da intensidade do brilho do LED com um potenciômetro, o quarto envolvendo o microcontrolador ESP para o controle das cores de um LED RGB com um potenciômetro e o quinto envolvendo novamente o microcontrolador ESP para o controle do acionamento de um LED e um buzzer com a detecção de movimento pelo sensor PIR.
+											</p>
+										
+											<embed src="otherFiles/Oficina Presencial de Eletrônica.pdf" width="1000" height="610" type="application/pdf">
+							
+						</div>
+						</section>
 
-          <embed src="OFICINADERASPBERRY.pdf" width="1000" height="610" type="application/pdf">
+				<div class="prevNext">
+					<a href="./capitulo2-professores.html" class="previous ulLinks continue linkContinue">&laquo; Anterior</a>
+					<a href="./fotos-professores.html" class="next ulLinks continue linkContinue">Próximo &raquo;</a>
+				</div>
+		</article>
 
-          <div id="placeholder3" class = "anchor"><h3>Placeholder 3</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum neque obcaecati fugiat vero inventore aperiam, vitae fuga ab id quidem perspiciatis saepe impedit odit doloribus eaque, veniam iure culpa! Saepe.
-            Officia alias fugit voluptatem fuga blanditiis! Voluptate, delectus quasi. Beatae assumenda sapiente nihil quae architecto vero repellendus deserunt repudiandae natus aperiam perspiciatis veritatis aspernatur rem libero expedita, nisi blanditiis enim.
-            Dicta ut obcaecati vitae aperiam! Iste sed mollitia, omnis nisi amet earum repudiandae dolor tempora veritatis expedita illum provident impedit quisquam optio, alias, distinctio at dolores voluptatibus voluptatum dolorem debitis!
-            Nam delectus repellat quas qui ad asperiores doloremque voluptatum dicta perferendis aliquam sunt omnis doloribus quos, fuga necessitatibus architecto, fugiat maxime corporis iusto? Voluptate vel hic reiciendis sed quaerat quas?
-            Saepe eaque amet quia enim illum, totam laborum praesentium provident, dolor quod, eveniet repudiandae error nostrum itaque dolores fuga neque ipsam labore tempore minus cumque ab. Error vero provident amet.
-            Perferendis cumque ullam provident excepturi iusto odit optio numquam fuga! Illum reprehenderit nihil vero aut sequi reiciendis voluptates placeat at, quae voluptatum consequatur incidunt, asperiores ab rem tempore sint est!
-            Hic, officia quidem veniam inventore molestias nobis blanditiis quisquam accusamus earum repellat officiis perferendis aliquid tempore minima, error deserunt eos impedit alias. Distinctio eaque natus rem magnam animi repellat fugit.
-          </div>
-          
-        </div>
-        </section>
+		<script src = "script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-        <div class="prevNext">
-          <a href="./capitulo2-professores.html" class="previous ulLinks continue linkContinue">&laquo; Anterior</a>
-          <a href="./fotos-professores.html" class="next ulLinks continue linkContinue">Próximo &raquo;</a>
-        </div>
-    </article>
-
-    <script src = "script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    </div>
+		</div>
 </body>
 </html>
